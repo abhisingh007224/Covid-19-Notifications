@@ -8,7 +8,7 @@ def notifyMe(title,message):
 	notification.notify(
 		title=title,
 		message=message,
-		app_icon=None,
+		app_icon="Your icon location",
 		timeout=15
 	)
 
